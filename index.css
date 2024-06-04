@@ -1,0 +1,140 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  background-color: #1b1c1d;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b1c1d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #97a39f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #1b1c1d;
+  }
+
+  .Name{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+.container1{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+img{
+    position: relative;
+    padding-top: 40px;
+    left: 25px;
+}
+.button{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.icon{
+  font-size: small;
+}
+.Quote{
+  background-color: #1b1c1d;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.awards{
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.hr-lines{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.hr-lines:before , .hr-lines:after{
+  content : " ";
+  flex: 1 1;
+  border-bottom: 2px solid #dadade;
+}
+.row{
+display: flex;
+justify-content: center;
+align-content: center;
+padding-left: 10%;
+padding-right: 10%;
+}
+.list-wrapper{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+.list-right{
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 70%;
+  background-color: white;
+  font-size: small;
+  padding-bottom: 5%;
+  list-style: disc;
+  padding-top: 40px;
+}
+.list-left{
+  display: grid;
+  grid-column: 70%;
+  background-color: white;
+  font-size: small;
+  padding-bottom: 5%;
+  list-style: disc;
+  padding-top: 40px;
+}
+.footer{
+  background-color: #1b1c1d;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.footer-center{
+  border-left: 1px solid #dadade;
+  padding-left: 10px;
+  padding-right: 10%;
+}
+.footer-right{
+  border-left: 1px solid #dadade;
+  padding-left: 10px;
+}
+.footer-left{
+  padding-right: 35px;
+}
+
